@@ -1,0 +1,168 @@
+body{
+    background-color: #fff;
+    width: 100%;
+}
+header{
+    display: flex;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: small;
+    list-style: none;
+        top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 2cm;
+    -webkit-box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+
+    font-weight: bold;
+    align-items: center;
+    background-color: #fff
+   }
+   header a{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 25px;
+   }
+   header a:hover{
+    border-bottom: 4px  solid red;
+   }
+   #logo{
+  width: 8px;
+    
+   }
+header li{
+       padding: 23px;
+}
+
+    
+.search img{
+    max-width: 25px;
+    max-height: 25px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+    background-color: whitesmoke;
+    border: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: rgb(222, 222, 222);
+}
+input[type=text]{
+    border: none;
+    background-color: whitesmoke;
+    width: 13cm;
+    height:.8cm ;
+    margin-top: 0%;
+    margin-left: .3cm;
+    font-size: larger;
+    }
+    
+    .right container{
+     
+         display: flex;
+        
+    }
+    
+    .user{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+       
+    }
+    .user :hover{
+        border: none;
+    }
+   .user img{
+    max-width: 15px;
+    max-height: 15px;
+   }
+
+   body{
+    max-width: 100%;
+   }
+
+
+   /*banner*/
+   .banner{
+    background-color: #fff;
+    margin-top: 80px;
+      }
+   .banner0{
+   
+    width: 95%;
+    max-height: 200px;
+   margin-left: 40px; 
+   margin-top: 30px;  
+   }
+   .bannerfirst{
+    width: 95%;
+    margin-left: 40px;
+    max-height: 70ch;
+   }
+   .celebrate{
+    width: 100%;
+   }
+   .off{
+    display: flex;
+    width: 100%;
+    
+   }
+   .offimg{
+    max-width: 90%;
+    margin-left:20px;
+   }
+   .deals{
+    max-height: 30%;
+    background-color: beige;
+   }
+   .deals img{
+    height: 49ch;
+   }
+   .category{
+    padding: 10px;
+    margin-left: 12px;
+   }
+   .category img{
+    width: 27ch;
+    height: 35ch;
+    padding: 10px;
+   }
+   .bannermore{
+    width: 90%;
+    padding: 25px;
+    margin-left: 20px;
+   }
+   footer{
+    background-color:#FAFBFC;
+    display: flex;
+   }
+   .container1{
+    padding: 40px;
+   }
+   .container1 h5{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+   }
+   .container1 li{
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+   .container1 a{
+    text-decoration: none;
+    font-size:small;
+    color: grey;
+    
+   }
+   .playstore img{
+    width: 120px;
+    height: 50px;
+   }

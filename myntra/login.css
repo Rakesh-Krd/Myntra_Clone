@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(253, 235, 238);
+}
+header{
+    display: flex;
+    font-family: "Roboto Flex", sans-serif;
+    font-size: small;
+    list-style: none;
+        top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 2cm;
+    -webkit-box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+
+    font-weight: bold;
+    align-items: center;
+    background-color: #fff
+   }
+   header a{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 25px;
+   }
+   header a:hover{
+    border-bottom: 4px  solid red;
+   }
+   #logo{
+  width: 8px;
+    
+   }
+header li{
+       padding: 23px;
+}
+.search img{
+    max-width: 25px;
+    max-height: 25px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+    background-color: whitesmoke;
+    border: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: rgb(222, 222, 222);
+}
+input[type=text]{
+    border: none;
+    background-color: whitesmoke;
+    width: 13cm;
+    height:.8cm ;
+    margin-top: 0%;
+    margin-left: .3cm;
+    font-size: larger;
+    }
+    
+    .right container{
+     
+         display: flex;
+        
+    }
+    
+    .user{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        
+    }
+   .user img{
+    max-width: 15px;
+    max-height: 15px;
+   }
+.logincontainer{
+    background-color: #fff;
+    height: 15cm;
+    width: 13cm;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+.loginorsignup{
+    margin-top: 40px;
+    margin-left: 8%;
+}
+.loginmobile input{
+    margin-top: 10px;
+    margin-left: 8%;
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+.agreement{
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-left: 13%;
+    margin-top: 15px;
+}
+.arg1 a{
+    color: rgb(255, 150, 167);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bolder;    
+}
+.btncontinue input{
+    width: 70%;
+    background-color:rgb(253, 86, 114) ;
+    margin-left: 13%;
+    margin-top: 10px;
+    height: 35px;
+    border: none;
+    color: #fff;
+    cursor:grab;
+}
+.email a{
+    text-decoration: none;
+    color:rgb(253, 86, 114);
+    
+}
+.trouble{
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-left: 13%;
+    margin-top: 25px;
+}
+.trb1 a{
+    color:rgb(255, 150, 167) ;
+    font-weight: bolder;
+    text-decoration: none;
+}
